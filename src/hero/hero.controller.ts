@@ -10,7 +10,6 @@ export class HeroController {
     });
   }
 
-
   @Get('create')
   create(@Res({ passthrough: true }) response) {
     response.cookie('name', 'tobi');
