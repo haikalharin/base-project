@@ -77,8 +77,8 @@ export class HeroController {
   }
 
   @Post('store')
+
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  // @HttpCode(200)
   store(@Req() request, @Res({ passthrough: true }) response) {
     try {
       // response.status(201).json(request.body);
